@@ -1,0 +1,31 @@
+package com.kh.spring.shop.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.kh.spring.shop.service.ShopService;
+import com.kh.spring.shop.vo.Product;
+
+@Controller
+public class ShopController {
+	@Autowired
+	private ShopService shopService;
+	
+	public ShopController(ShopService shopService) {
+		this.shopService = shopService;
+	}
+	//주문에 관련된 내용을 처리하는 메서드
+	@PostMapping("/placeOrder")
+	public String placeOrder(@RequestBody Product product, int quantity, Model model) {
+		//주문을 처리하고 주문한 결과를 Order에 반환하겠다
+		
+	}
+	
+}
+/*
+ 	@RequestBody : 정보를 url이 아니라 자바 객체로 받음 
+ 	@RequestParam : 정보를 url로 저장
+*/

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login</title>
+</head>
+<body>
+	<!--
+		login mname 로그인하기
+		session X 로그인을 넘겨주는 것까지만 진행 
+	-->
+	<form th:action="@{/login}" method="post" th:object="${loginForm}">
+		<label for="mname">이름: </label>
+		<input type="text" id="mname" name="mname" th:field="*{mname}" required>
+	</form>
+</body>
+</html>

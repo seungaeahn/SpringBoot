@@ -1,0 +1,9 @@
+1701396622087	Rename package 'com.kh.board'
+1701396651832	Rename package 'com.kh.shop'
+1701396749669	Rename type 'Entity'
+1701397426427	Move compilation unit
+1701397759489	Rename package 'com.kh.spring.shop.sevice'
+1701402194998	Delete element
+1701402886740	Move 'css' to 'static'
+1701402889097	Move 'img' to 'static'
+1701406908138	Rename resource 'memberForm.html'

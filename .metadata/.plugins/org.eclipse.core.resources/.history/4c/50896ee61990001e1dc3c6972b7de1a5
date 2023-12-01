@@ -1,0 +1,7 @@
+package com.kh.spring.shop.vo;
+
+public class Cart {
+	//장바구니
+	//장바구니에 얼마나 들어있는지
+	
+}

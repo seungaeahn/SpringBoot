@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Board List</title>
+	</head>
+<body>
+	<h2>Board List</h2>
+	<table border="1">
+		<thead>
+			<tr>
+				<th></th>
+			</tr>
+		</thead>
+	</table>
+</body>
+</html>

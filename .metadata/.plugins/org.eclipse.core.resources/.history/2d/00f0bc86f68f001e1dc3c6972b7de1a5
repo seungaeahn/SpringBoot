@@ -1,0 +1,23 @@
+package com.kh.spring.shop.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.kh.spring.shop.service.MemberService;
+import com.kh.spring.shop.vo.Member;
+
+@Controller
+@RequestMapping("/members")
+public class MemberController {
+	private final MemberService memberService;
+	
+	//회원가입하고 회원가입 결과 @GetMapping @PostMapping
+	@GetMapping("/new")
+	public String joinMember(Model model) {
+		model.addAttribute("member", new Member());
+		return "member/joinForm";
+	}
+	//로그인하고 로그인실패 @GetMapping @GetMapping
+}

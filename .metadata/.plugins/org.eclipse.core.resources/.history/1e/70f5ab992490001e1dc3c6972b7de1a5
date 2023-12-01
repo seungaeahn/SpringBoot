@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>장바구니</title>
+		<link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/>
+	</head>
+<body>
+	<h1>장바구니</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>상품 이름</th>
+				<th>가격</th>
+				<th>수량</th>
+				
+			</tr>
+		</thead>
+	</table>
+	<p th:text="${}"></p>
+</body>
+</html>

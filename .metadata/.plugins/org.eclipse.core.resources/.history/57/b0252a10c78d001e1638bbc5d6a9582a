@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>제품 추가하기</title>
+</head>
+<body>
+	<h2>제품 추가 폼 작성</h2>
+	<form action="" th:object="" method="post">
+		<input type="hidden" th:field="*{id}">
+		
+		<label>ID : </label>
+		<input th:text="${product.product_id}"/>
+		
+		<label>NAME : </label>
+		<input th:text="${productName}"/>
+		
+		<label>CATEGORY : </label>
+		<input th:text="${category}"/>
+		
+		<label>PRICE : </label>
+		<input th:text="${price}"/>
+		
+		<label>STOCK QUANTITY : </label>
+		<input th:text="${stock_quantity}"/>
+	</form>
+</body>
+</html>

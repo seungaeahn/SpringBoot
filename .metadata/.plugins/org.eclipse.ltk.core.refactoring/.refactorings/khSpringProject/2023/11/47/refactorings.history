@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.kh.springPJ.introController.java&apos; to &apos;IntroController.java&apos;&#x0D;&#x0A;- Original project: &apos;khSpringProject&apos;&#x0D;&#x0A;- Original element: &apos;com.kh.springPJ.introController.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.kh.springPJ.IntroController.java&apos;" description="Rename compilation unit &apos;introController.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kh.springPJ{introController.java" name="IntroController.java" references="false" stamp="1700536187712" version="1.0"/>
+</session>

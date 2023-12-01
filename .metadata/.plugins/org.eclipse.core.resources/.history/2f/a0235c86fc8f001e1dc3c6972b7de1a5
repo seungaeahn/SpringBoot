@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>KH Shopping Mall Loin</title>
+		<link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/>
+	</head>
+<body>
+	<form>
+		<div>
+			<label></label>
+			<input/>
+		</div>
+		<div>
+			<label></label>
+			<input/>
+		</div>
+		<div>
+			<label></label>
+			<input/>
+		</div>
+		<div>
+			<label></label>
+			<input/>
+		</div>
+		<p></p>
+		<button>로그인</button>
+		<button>회원가입</button>
+	</form>
+</body>
+</html>

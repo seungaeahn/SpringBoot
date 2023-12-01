@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cafe Detail</title>
+		<link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/>
+	</head>
+<body>
+	<h2>Cafe Detail</h2>
+	<div th:if="${cafe != null}">
+		<p>CAFE_ID</p>
+		<p th:text="${cafe.cafeId}"></p>
+		<p>NAME</p>
+		<p th:text="${cafe.name}"></p>
+		<p>LOCATION</th>
+		<p th:text="${cafe.location}"></p>
+		<p>OPENING_HOURS</p>	
+		<p th:text="${cafe.opening_hours}"></p>
+	</div>
+</body>
+</html>

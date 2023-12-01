@@ -1,0 +1,26 @@
+package com.kh.springdb.vo;
+
+import org.springframework.data.annotation.Id;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Getter
+@Setter
+@Table(name="ProductItem")
+public class Product {
+	@Id
+	@Column(name="product_id")
+	private int product_id;
+	@Column(nullable = false, length = 50)
+	private String product_name;
+	@Column(nullable = false, length = 50)
+	private String category;
+	@Column(name="price")
+	private int price;
+}
+

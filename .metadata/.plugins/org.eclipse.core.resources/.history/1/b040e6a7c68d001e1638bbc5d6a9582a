@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>제품 추가하기</title>
+</head>
+<body>
+	<h2>제품 추가 폼 작성</h2>
+	<form>
+		
+	</form>
+</body>
+</html>

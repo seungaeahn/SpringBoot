@@ -1,0 +1,17 @@
+package com.kh.spring.shop.service;
+
+import org.springframework.stereotype.Service;
+
+import com.kh.spring.shop.repository.MemberRepository;
+import com.kh.spring.shop.vo.Member;
+
+@Service
+public class MemberService {
+	private final MemberRepository memberRepository;
+	
+	//1. 회원가입하는 메서드
+	public Member saveMember(Member member) { //전부 다 들고와야하니까 Member 파라미터를 가져오는 것
+		return memberRepository.save(member);
+	}
+	
+}

@@ -1,0 +1,57 @@
+package com.kh.board.vo;
+
+import jakarta.persistence.*;
+import lombok.*;
+@Getter
+@Setter
+@Entity
+@Table(name = "Board")
+public class Board {
+	@Id
+	@GeneratedValue(strategy= GenerationType.SEQUENCE,
+					generator="board_id_sequence")
+	
+	@SequenceGenerator(name="board_id_sequence",  sequenceName="board_id_sequence",
+					allocationSize=1)
+	
+	@Column(name = "board_id")
+	private Long boardId;
+	
+	@Column(name = "title")
+	private String title;
+	
+	@Column(name = "content")
+	private String content;
+	
+	@Column(name = "author")
+	private String author;
+
+}
+/*
+	@Lob : Blob, Clob 파일을 매핑
+	@CreationTimestamp: insert 시 자동으로 저장
+	@UpdateTimestamp : update 시 시간을 자동으로 지정
+	@Temporal : 날짜 타입 매핑 
+	@CreateDate : 엔티티가 생성되어 저잘될 때 시간을 저장 
+	
+	@Column : 테이블 안에 컬럼을 생성하거나 존재하는 테이블에 컬럼값을 찾아 매핑하는 역할을 함
+			  option
+			  	name : 데이터베이스에서 존재하는 컬럼이름과 자바 클래스에서 존재하는 field 이름이 일치하지 않을 경우
+			  		   자바와 데이터베이스의 값이 일치할 수 있도록 매핑해주는 역할
+			  	unique :유니크 제약 조건 생성 
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Cafe Detail</title>
+		<link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/>
+	</head>
+<body>
+	<h2>Cafe Detail</h2>
+	<div th:if="${cafe != null}">
+		<p>CAFE_ID</p>
+		<p th:text="${cafe.cafeId}"></p>
+		<p>NAME</p>
+		<p th:text="${cafe.name}"></p>
+		<p>LOCATION</th>
+		<p th:text="${cafe.location}"></p>
+		<p>OPENING_HOURS</p>	
+		<p th:text="${cafe.opening_hours}"></p>
+		<a th:href="@{/cafes}">Back to List</a>
+	</div>
+	<div th:unless="${cafe != null}">
+		<p>카페를 찾을 수 없습니다.</p>
+		<a th:href="@{/cafes}">돌아가기</a>
+	</div>
+</body>
+</html>

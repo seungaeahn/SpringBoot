@@ -1,0 +1,9 @@
+package com.kh.spring.shop;
+
+import jakarta.persistence.Table;
+
+@Member
+@Table(name="member")
+public class Member {
+	
+}

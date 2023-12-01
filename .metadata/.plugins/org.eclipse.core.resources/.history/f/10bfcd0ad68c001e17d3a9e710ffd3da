@@ -1,0 +1,40 @@
+package com.kh.springdb.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.kh.springdb.mapper.BoardMapper;
+import com.kh.springdb.model.Board;
+
+@Service
+public class BoardService {
+	@Autowired
+	private BoardMapper boardMapper;
+	
+	//게시판에서 게시물 전체보기 서비스
+	public List<Board> getAllBoards() {
+		return boardMapper.getAllBoards();
+	}
+	
+	//게시판에서 게시물 1개 선택했을 때 1가지에 대한 상세보기 서비스
+	public Board getBoardById() {
+		return boardMapper.getBoardById(boardId);
+	}
+	
+	//게시판에서 게시물 작성하기 서비스
+	public void saveBoard(Board board) {
+		boardMapper.saveBoard(board);
+	}
+	
+	//게시물 수정하기 서비스
+	public void updateBoard(Board board) {
+		boardMapper.updateBoard(board);
+	}
+	
+	//게시물 삭제하기 서비스 
+	public void deleteBoard(Board board) {
+		boardMapper.deleteBoard(board);
+	}
+}

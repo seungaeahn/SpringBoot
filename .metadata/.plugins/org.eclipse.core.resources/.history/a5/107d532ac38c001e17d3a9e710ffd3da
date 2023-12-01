@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>mainPage</title>
+</head>
+<body>
+<h1>mainPage</h1>
+<a href="register"><button id="gotoRegister">회원가입</button></a>
+<a href="login"><buttonn id="gotoLogin">로그인</buttonn></a>
+
+</body>
+</html>

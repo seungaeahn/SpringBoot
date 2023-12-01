@@ -1,0 +1,13 @@
+package com.kh.springdb.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.kh.springdb.vo.Product;
+
+@RestController
+public class StartController {
+	public Product startProduct() {
+		Product pd = new Product();
+		pd.set
+	}
+}

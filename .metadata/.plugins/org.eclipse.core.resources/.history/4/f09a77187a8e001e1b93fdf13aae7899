@@ -1,0 +1,63 @@
+package com.kh.board.controller;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.kh.board.service.BoardService;
+import com.kh.board.vo.Board;
+
+@Controller
+@RequestMapping("/boards")
+public class BoardController {
+	private final BoardService boardservice;
+	
+	@Autowired
+	public BoardController(BoardService boardservice) {
+		this.boardservice = boardservice;
+	}
+	
+	@GetMapping
+	public String getAllBoards(Model model) {
+		List<Board> boards = boardservice.getAllBoards();
+		model.addAttribute("boards", boards);
+		return "board_list";
+	}
+	
+	@GetMapping("/details/{board_id}")
+	public String getBoardDetails(@PathVariable Long board_id, Model model) {
+		Optional<Board> board = boardservice.getBoardById(board_id);
+		board.ifPresent(value -> model.addAttribute("board", value));
+		return "board_detail";
+	}
+	
+	//insert Get Post Mapping
+	@GetMapping("/new")
+	public String displayBoardForm() {
+		
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

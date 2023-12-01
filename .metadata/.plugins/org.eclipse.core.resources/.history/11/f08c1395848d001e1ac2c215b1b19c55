@@ -1,0 +1,22 @@
+Annotation(어노테이션 = @)
+	사전적의미 : 주석
+		JDK5부터 등장했음
+		메타데이터라고 불림(메타데이터 : 데이터를 위한 데이터)
+		클래스나 메서드, 변수 등을 선언할 때 @ 붙여서 사용
+
+JPA
+	자바에서 관계형 데이터베이스와 상호작용을 위해서 기능을 따로 작성하지 않고 축소시켜서 사용하는 기술
+	
+ORM
+	Java와 DataBase에 있는 테이블과 변수들을 매핑해주는 역할을 함
+
+Lombok 라이브러리
+	반복적으로 사용하는 Getter/Setter, ToString과 같이 반복적인 자바 코드를 작성할 것을 자동으로 축소해주는 역할을 주로 해주는 라이브러리
+	@Getter/@Setter : 
+		public void getId() { } 
+		public int setId() { } 메소드로 작성했던 코드를
+		@Getter/@Setter 작성으로 코드를 단축시켜주는 역할을 함 
+	@NotNull : 해당 변수가 null인지 체크해주는 어노테이션을 제공
+	@EqualsAndHashCode : 객체가 동등한지 비교하는데 사용
+						 자동으로 equals()와 hashcode() 메서드를 생성해줌 
+	@Data : @ToString, @EqualsAndHashCode, @Getter, @Setter, @RequiredArgsConstructor를 합친 어노테이션 

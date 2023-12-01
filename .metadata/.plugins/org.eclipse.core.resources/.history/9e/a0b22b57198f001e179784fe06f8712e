@@ -1,0 +1,20 @@
+package com.kh.board.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.kh.board.vo.Board;
+
+@Repository
+public interface BoardRepository extends JpaRepository<Board, Long>{
+	//게시판에서 제목에 특정 키워드가 포함된 게시물을 검색
+	@Query("SELECT FROM board WHERE title LIKE %:적고싶은키워드%")
+}
+
+
+
+/*
+ 	@Query : JPA에서 제공하는 CRUD 쿼리 이외에 추가적으로 필요한 쿼리가 있는 경우
+ 			 직접 생성해서 쿼리를 정의할때 사용하는 어노테이션 
+ 			 인터페이스 메서드에 직접 쿼리를 작성할 수 있으며 더 복잡한 검색이나 조건 
+*/

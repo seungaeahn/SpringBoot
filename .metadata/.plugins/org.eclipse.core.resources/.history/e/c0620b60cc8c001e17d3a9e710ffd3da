@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.kh.springdb.mapper.BoardMapper">
+			 
+	<select id="getAllBoards" resultType="com.kh.springdb.model.Board">
+		SELECT * FROM board
+	</select>
+	
+	<!-- insert 구문
+	AUTHOR
+	CONTENT
+	TITLE
+	CREATED_AT
+	BOARD_ID
+	IMAGE
+	 -->
+	<insert id="insertBoard"  parameterType="com.kh.springdb.model.Board">
+		INSERT INTO board (MNO, MNAME, MEMAIL, MBIRTH)
+		VALUES (#{mno}, #{mname}, #{memail}, #{mbirth})
+	</insert>
+
+</mapper>

@@ -1,0 +1,24 @@
+##포트번호
+server.port=8080
+
+##DB연결
+spring.datasource.url=jdbc:oracle:thin:@//localhost:1521/XE
+spring.datasource.username=khcafe
+spring.datasource.password=KH1234
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+##ddl 업데이트
+spring.jpa.hibernate.ddl-auto=update
+
+##img 관련 설정
+spring.servlet.multipart.max-file-size = 10MB
+
+## jpa 쿼리 추가
+spring.jpa.properties.hibernate.show.sql = true
+spring.jpa.show-sql=true
+
+##템플릿 경로
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
+
+

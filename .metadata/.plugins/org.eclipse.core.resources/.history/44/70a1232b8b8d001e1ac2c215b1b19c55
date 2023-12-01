@@ -1,0 +1,9 @@
+package com.kh.springdb.controller;
+
+import com.kh.springdb.vo.Product;
+
+public class StartController {
+	public Product startProduct() {
+		
+	}
+}
