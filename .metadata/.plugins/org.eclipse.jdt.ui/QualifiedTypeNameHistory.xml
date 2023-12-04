@@ -24,10 +24,14 @@
     <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
     <fullyQualifiedTypeName name="com.kh.board.repository.BoardRepository"/>
     <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
+    <fullyQualifiedTypeName name="com.kh.spring.shop.vo.Member"/>
+    <fullyQualifiedTypeName name="com.kh.spring.shop.repository.ProductRepository"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Table"/>
     <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
-    <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="com.kh.spring.shop.vo.Order"/>
+    <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+    <fullyQualifiedTypeName name="com.kh.spring.shop.repository.OrderRepository"/>
 </qualifiedTypeNameHistroy>

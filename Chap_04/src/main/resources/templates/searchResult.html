@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>SearchResult</title>
+	</head>
+<body>
+	<h2>유저 검색 결과</h2>
+	<form th:action="@{/cafes}" method="get">
+			<label>Search Cafe: </label>
+			<input type="text" id="search" name="name"/>
+			<button type="submit">Search</button>
+	</form>
+</body>
+</html>

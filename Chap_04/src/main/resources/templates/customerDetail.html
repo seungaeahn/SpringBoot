@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Customer Detail</title>
+	</head>
+<body>
+	<h2>회원 정보 보기</h2>
+	<div th:if="${customer != null}">
+		<p>Id</p>
+		<p th:text="${customer.customerId}"></p>
+		<p>Password</p>
+		<p th:text="${customer.customerPw}"></p>
+		<p>Email</th>
+		<p th:text="${customer.customerEmail}"></p>
+		
+		<a th:href="@{/customers}">Back to Home</a>
+	</div>
+	<div th:unless="${customer != null}">
+		<p>회원정보를 찾을 수 없습니다.</p>
+		<a th:href="@{/customers}">Back to Home</a>
+	</div>
+</body>
+</html>

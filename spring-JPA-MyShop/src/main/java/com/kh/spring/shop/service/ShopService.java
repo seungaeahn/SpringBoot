@@ -58,8 +58,8 @@ public class ShopService {
 		return productRepository.findById(productId).orElse(null);
 	}
 	
-	//결제 처리 메서드 
-	private Payment savePayment(Order order, String payment) {
+	//결제 처리 메서드
+	private Payment savePayment(Order order,String payment) {
 		//결제 정보 처리
 		Payment payments = new Payment();
 		payments.setOrder(order);
