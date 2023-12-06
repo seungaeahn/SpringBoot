@@ -7981,3 +7981,672 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+!SESSION 2023-12-06 09:00:46.122 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2023-12-06 09:01:16.192
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-06 09:01:16.395
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.core.resources 2 10035 2023-12-06 09:01:19.783
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY ch.qos.logback.classic 1 0 2023-12-06 09:01:20.490
+!MESSAGE Logback config file: C:\Users\user1\springBoot-workspace\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2023-12-06 09:01:22.155
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-06 09:01:22.155
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-12-06 09:01:22.568
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-06 09:01:25.482
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user1\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\user1\Desktop\eclipse\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.50.0.202310252332\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user1\Desktop\eclipse\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.50.0.202310252332\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user1\Desktop\eclipse\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.50.0.202310252332\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user1/springBoot-workspace/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1701820885482
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:25.483
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2023-12-06 09:01:25.495
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 3932
+
+!ENTRY org.eclipse.egit.ui 2 0 2023-12-06 09:01:25.822
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.399
+!MESSAGE Boot project ADDED: Chap_002
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.400
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.402
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.402
+!MESSAGE Boot project ADDED: Chap_03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.403
+!MESSAGE Boot project ADDED: Chap_04
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.404
+!MESSAGE Boot project ADDED: JPA-imgUpload-Cart-Order
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.404
+!MESSAGE Boot project ADDED: khSpringProject
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.405
+!MESSAGE Boot project ADDED: spring-DB-Oracle
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.406
+!MESSAGE Boot project ADDED: spring-DB-Oracle-pre
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.406
+!MESSAGE Boot project ADDED: spring-JPA-Board
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.407
+!MESSAGE Boot project ADDED: spring-JPA-Cafe
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.407
+!MESSAGE Boot project ADDED: spring-JPA-MyShop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.408
+!MESSAGE Boot project ADDED: spring-JPA-Shop
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.408
+!MESSAGE Boot project ADDED: spring-Thymeleaf
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.409
+!MESSAGE Boot project ADDED: spring-Thymeleaf-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.409
+!MESSAGE Boot project ADDED: spring-projects
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.410
+!MESSAGE Boot project ADDED: springStart
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.410
+!MESSAGE Boot project ADDED: springStart-1
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 09:01:26.411
+!MESSAGE Boot project ADDED: springTestProject
+
+!ENTRY org.eclipse.jface 2 0 2023-12-06 09:02:39.864
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2023-12-06 09:02:39.864
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 09:19:52.177
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 09:19:52.177
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 09:19:52.178
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 09:19:52.178
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 09:19:52.184
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 09:19:52.187
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 11:52:52.196
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 11:52:52.196
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 11:52:52.197
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 11:52:52.197
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 11:52:52.201
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 11:52:52.203
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 14:07:32.873
+!MESSAGE Classpath changed for project: JPA-imgUploadList
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 14:07:32.874
+!MESSAGE Boot project ADDED: JPA-imgUploadList
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2023-12-06 14:07:33.982
+!MESSAGE Classpath changed for project: JPA-imgUploadList
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-06 14:21:10.477
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2023-12-06 14:23:10.606
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 14:48:26.748
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 14:48:26.749
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 14:48:26.749
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 14:48:26.749
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 14:48:26.753
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 14:48:26.755
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-12-06 14:48:27.405
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-12-06 14:50:27.149
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-12-06 15:14:55.587
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 15:50:13.927
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 15:50:13.928
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 15:50:13.929
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 15:50:13.930
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 15:50:13.937
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 15:50:13.940
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-12-06 15:50:14.598
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:20:20.832
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:20:20.832
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:20:20.833
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:20:20.834
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:20:20.838
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:20:20.839
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:20.082
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:20.437
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:20.557
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:20.606
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:22.743
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:23.086
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:23.329
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:23.654
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:24.229
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:24.358
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:24.646
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:24.776
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:34.023
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:37.183
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:37.487
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:37.583
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:37.729
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:40.109
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:40.454
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:40.693
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:40.999
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:41.327
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:41.470
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:41.550
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2023-12-06 16:37:41.695
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/springBoot-workspace/JPA-imgUploadList/src/main/resources/templates/itemDetails.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:58:53.407
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:58:53.408
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:58:53.409
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:58:53.410
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:58:53.416
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 16:58:53.419
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-12-06 16:58:54.069
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 17:43:42.833
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/application-client_9.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 17:43:42.834
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/jobXML_2_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 17:43:42.834
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jakartaee/beans_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 17:43:42.834
+!MESSAGE The given URI https://jakarta.ee/xml/ns/jaxb/bindingschema_3_0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 17:43:42.838
+!MESSAGE The given URI https://jakarta.ee/xml/ns/validation/validation-configuration-3.0.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 2 0 2023-12-06 17:43:42.840
+!MESSAGE The given URI http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_1.xsd from org.eclipse.jst.standard.schemas could not be resolved for local access
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2023-12-06 17:43:43.500
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
