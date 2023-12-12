@@ -1,7 +1,0 @@
-package com.kh.spring.shop.controller;
-
-import com.kh.spring.shop.vo.Product;
-
-public class ProductRepository extends JpaRepository<Product, Long>{
-
-}
