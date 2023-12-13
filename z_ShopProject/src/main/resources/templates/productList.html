@@ -17,22 +17,14 @@
 			     text-align: center;
 			    
 			}
-			.pageInfo{
-			      list-style : none;
-			      display: inline-block;
-			    margin: 50px 0 0 100px;      
-			  }
-			  .pageInfo li{
-			      float: left;
-			    font-size: 20px;
-			    margin-left: 18px;
-			    padding: 7px;
-			    font-weight: 500;
-			  }
-			 a:link {color:black; text-decoration: none;}
-			 a:visited {color:black; text-decoration: none;}
-			 a:hover {color:black; text-decoration: underline;}
+			
 		</style>
+		<script>
+		function likeProduct(productId) {
+			alert('좋아요를 누르셨습니다.' + productId);
+		}
+	
+		</script>
 		<title>productList</title>
 	</head>
 	<body style="text-align: center">
@@ -55,13 +47,21 @@
 		<br><br>
 			<a th:href="@{'/detail/' + ${product.id}}">상세보기</a><br>
 			
+			<br>
+			<button th:if="${#authorization.expression('isAuthenticated()')}"
+				th:onclick="'likeProduct(' + ${product.id} + ')'"
+				type="button">좋아요❤</button>
+			<span th:text="${product.likes}"></span>likes
+			
+			
+			
 			
 			<!-- 장바구니에 상품을 담고자 한다면 장바구니에 담기 버튼 생성해서 담아주기 -->
 			<form th:action="@{/cart/add}" method="post">
 				<br>
 				<input type="hidden" name="productId" th:value="${product.id}"/>
 				<button type="submit">장바구니에 담기</button>
-				<br>
+				<br><br>
 			</form>	
 			<!--게시물에 번호 주기-->
 			<div th:text="${paging.getTotalElements -(paging.number * paging.size) -loop.index}"></div>

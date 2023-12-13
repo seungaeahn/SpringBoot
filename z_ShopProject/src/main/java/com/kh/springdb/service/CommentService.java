@@ -31,4 +31,11 @@ public class CommentService {
 		return commentRepository.save(comment);
 	}
 	
+	
+	//댓글 삭제 메서드 작성
+	public void deleteComment(Long productId) {
+		commentRepository.deleteById(productId);
+	}
+	
+	
 }

@@ -100,13 +100,26 @@ public class ProductController {
 		return "redirect:/detail/" + productId;
 	}
 	
-	//상품정보 수정하기
-	@GetMapping("/product/edit/{id}")
-	public String editProduct(@PathVariable("id") int id, Model model) {
-		Optional<Product> product = productService.getProductById(id);
-		product.ifPresent(value -> model.addAttribute("product", value));
-		return "prodctForm";
+	//댓글 삭제
+	@GetMapping("/deleteComment/{productId}")
+	public String deleteComment(@PathVariable Long productId) {
+		commentService.deleteComment(productId);
+		return "redirect:/list";
 	}
+	
+	//상품정보 수정하기
+//	@GetMapping("/product/edit/{id}")
+//	public String editProduct(@PathVariable("id") int id, Model model) {
+//		Optional<Product> product = productService.getProductById(id);
+//		product.ifPresent(value -> model.addAttribute("product", value));
+//		return "prodctForm";
+//	}
+	
+	//like한 내용 받아줄 수 있게 PostMapping
+//	public String likeProduct(/*추가로 나중에 변수값 넣어줄 것*/) {
+//		productService.likeProduct(/*추후 아이디값이나 like를 넣은 변수값 넣어줄 예정*/);
+//		return "redirect:/list";
+//	}
 
 	
 }

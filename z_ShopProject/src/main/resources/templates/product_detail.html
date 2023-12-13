@@ -9,7 +9,7 @@
 	    <h1>View</h1>
 	    
 	    <!--상품 수정하기 버튼 관리자만 볼 수 있게 해줌-->
-	    <a sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/product/edit}">상품수정하기</a>
+	    <a sec:authorize access="hasRole('ROLE_ADMIN')" th:href="@{/product/edit}">상품수정하기</a>
 	    
 	    <!--두 번째 방법-->
 	    <a th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}" th:href="@{/product/edit}">상품 수정하기</a>
@@ -38,8 +38,10 @@
 	<!--댓글표시-->
 	 <h2>댓글</h2>
 	    <div th:each="comment :  ${product.comments}">
-	    	<p th:text="${comment.content}">
+	    	<p th:text="${comment.content}"/>
+	    	<a th:href="@{/deleteComment/{productId}(productId=${comment.id})}">삭제</a>		
 	 	</div>
+	 	
 	
 	<!--댓글입력폼-->
 	<form th:action="@{/addComment}" method="post">
