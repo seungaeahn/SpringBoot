@@ -6,15 +6,45 @@
 		<!--link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/-->
 	</head>
 <body>
-	<form th:action="@{/users/save}" th:object="${user}" method="post">
-		<label>이름: </label>
-		<input type="text" th:field="*{name}" required/><br>
-		<label>이메일: </label>
-		<input type="email" th:field="*{email}" required/><br>
-		<label>비밀번호: </label>
-		<input type="password" th:field="*{password}" required/><br>
-		<label>주소: </label>
-		<input type="text" th:field="*{address}" required/><br>
+	<h2>Welcome</h2>
+	<h3>Sign up for Our Shopping Mall</h3>
+	<form th:action="@{/user/signup}" th:object="${userCreateForm}" method="post">
+		
+		<label for="isRole">가입자 유형 선택</label>
+		<select th:field="*{isRole}">
+			<option value="ADMIN">판매자</option>
+			<option value="USER">소비자</option>
+		</select>
+		
+		
+		
+		<!--판매자인지 소비자인지 체크하기
+		<div th:each="role : ${userRoles}">
+			<label for="isRole">가입자선택</label>
+			<input type="radio" th:field="*{isRole}" value="Role_ADMIN"/>판매자
+			<input type="radio" th:field="*{isRole}" value="Role_USER"/>소비자
+		</div>
+		-->
+		
+		<div>
+			<label for="username">사용자ID</label>
+			<input type="text" th:field="*{username}">
+		</div>
+		<div>
+			<label for="password1">비밀번호</label>
+			<input type="password" th:field="*{password1}">
+		</div>
+		<div>
+			<label for="password2">비밀번호확인</label>
+			<input type="password" th:field="*{password2}">
+		</div>
+		<form:errors path="password2" class="error"/>
+		<div>
+			<label for="email">이메일</label>
+			<input type="email" th:field="*{email}">
+		</div>
+		
+		<button type="submit">회원가입</button>
 	</form>
 </body>
 </html>

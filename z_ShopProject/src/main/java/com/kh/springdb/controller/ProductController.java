@@ -2,6 +2,7 @@ package com.kh.springdb.controller;
 
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -89,15 +90,24 @@ public class ProductController {
 		return "product_detail";
 	}
 	
-	private CommentService commentService;
+	@Autowired
+	private final CommentService commentService;
 	
 	//댓글 작성하기 위한 PostMapping
 	@PostMapping("/addComment")
 	public String addComment(@RequestParam int productId, @RequestParam String commentContent) {
 		commentService.addComment(productId, commentContent);
-		return "redirect:/detail" + productId;
+		return "redirect:/detail/" + productId;
 	}
 	
+	//상품정보 수정하기
+	@GetMapping("/product/edit/{id}")
+	public String editProduct(@PathVariable("id") int id, Model model) {
+		Optional<Product> product = productService.getProductById(id);
+		product.ifPresent(value -> model.addAttribute("product", value));
+		return "prodctForm";
+	}
+
 	
 }
 

@@ -10,6 +10,7 @@ import com.kh.springdb.repository.ProductRepository;
 
 @Service
 public class CommentService {
+	
 	@Autowired
 	private CommentRepository commentRepository;
 	

@@ -5,8 +5,17 @@
 	    <link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/>
 	    <title>View</title>
 	</head>
-	<body>
+	<body style="text-align: center;">
 	    <h1>View</h1>
+	    
+	    <!--상품 수정하기 버튼 관리자만 볼 수 있게 해줌-->
+	    <a sec:authorize="hasRole('ROLE_ADMIN')" th:href="@{/product/edit}">상품수정하기</a>
+	    
+	    <!--두 번째 방법-->
+	    <a th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}" th:href="@{/product/edit}">상품 수정하기</a>
+	    
+	    
+	    
 	    <div th:if="${product.imgName != null and product.imgPath != null}">
 	        <img th:src="@{${product.imgPath}}"/>
 	    </div>
@@ -36,7 +45,7 @@
 	<form th:action="@{/addComment}" method="post">
 		<input type="hidden" name="productId" th:value="${product.id}">
 		<label>댓글작성</label>
-		<input type="text" id="comment" name="comment">
+		<input type="text" id="commentContent" name="commentContent">
 		<button type="submit">댓글등록</button>
 	</form>
 	
