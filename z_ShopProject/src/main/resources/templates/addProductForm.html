@@ -3,10 +3,10 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Add Product Form</title>
-		<!--link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}"/-->
+		<link rel="stylesheet" href="/css/styles.css" th:href="@{/css/styles.css}">
 	</head>
-<body>
-	<h1>상품 이미지 및 상품 내용을 업로드</h1>
+<body style="text-align: center;">
+	<h1>Add Product Form</h1>
 	<form th:action="@{/product/new}", method="post" enctype="multipart/form-data">
 		<label>상품 판매 / 품절</label><br>
 		<input type="radio" name="isSoldout" value="0">판매중<br>

@@ -11,6 +11,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
+import jakarta.persistence.PrePersist;
 import jakarta.persistence.SequenceGenerator;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -55,6 +56,7 @@ public class Product {
 	@DateTimeFormat(pattern="yyyy-mm-dd")
 	private LocalDate createDate;
 	
+	@PrePersist
 	public void createDate() {
 		this.createDate = LocalDate.now();
 	}

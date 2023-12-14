@@ -1,17 +1,28 @@
 @charset "UTF-8";
 
 
-.all {
-	padding: 10%;
-	border:#73685d;
-	background-color: bisque;
-	font-size: .9em;
-	box-shadow: 0 2px 5px rgba(0,0,0,.25);
-	width: 100%;
-	border-collapse: collapse;
-	border-radius: 5px;
-	overflow: hidden;
+body {
+  padding:1.5em;
+  background:#C7DCA7;
 }
+
+a:link, a:visited {
+			background-color: #FFC5C5;
+			color: maroon;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			}
+a:hover, a:active {
+				background-color: #89B9AD;
+				}
+
+
+
+
+
+
 
 img {
 	width: 300px;
@@ -19,10 +30,7 @@ img {
 
 
 
-body {
-  padding:1.5em;
-  background: #f5f5f5
-}
+
 
 table {
   border: 1px #a39485 solid;
